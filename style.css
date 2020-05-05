@@ -1,0 +1,14 @@
+
+body {
+  background: url('https://wexnermedical.osu.edu/-/media/images/wexnermedical/blog/2018-stories/04/intermittent-fasting/intermittent-fasting_large.jpg?la=en&hash=7C73BE4147225E68DB1B01F73646ED92E6A4E9F0') no-repeat fixed center/cover;
+  color:azure;
+  font-size: 2rem;
+  letter-spacing: 0.5px;
+}
+
+h1, h2, h3 { text-align: center; margin: 1rem 0}
+
+.box {margin: 1rem; box-shadow: 0 0 10px 0px; background-color: rgba(0,0,0,.4)}
+
+.box, .box-content { padding: 1rem; line-height:  1.6; margin-bottom: 2rem;
+}
