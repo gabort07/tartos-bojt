@@ -2,6 +2,7 @@
 <html lang="hu">
 
 <head>
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Playfair+Display&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
@@ -10,99 +11,116 @@
 </head>
 
 <body>
-  <div class="page-header">
-    <h1>Tartós böjt</h1>
-    <h3 class="">Ami testünkben ezalatt történik</h3>
-  </div>
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col col-sm-4 col-sm-offset-2">
-        <div class="box">
-          <img class="img-fluid img-rounded" src="https://cdn.britannica.com/20/198720-050-A89DCD7B/space-filling-structure-ribbon-representation-human-growth-hormone.jpg" alt="GH">
-          <div class="box-content">
-            <h2>12 órán túl</h2>
-            <p>Ha már eltelt 12 óra utolsó étkezésünk óta, a megszokottnál nagyobb mennyiségben kezd növekedési hormon termelődni. A GH <a href="https://hu.wikipedia.org/wiki/N%C3%B6veked%C3%A9si_hormon">(Growth Hormone)</a> egyik fő szerepe a protein szintetizálásban van.</p>
-          </div>
-        </div>
-      </div>
-      <div class="col col-sm-4">
-        <div class="box">
-          <img class="img-fluid img-rounded" src="http://www.tebu-bio.com/blog/wp-content/uploads/2015/03/the-process-of-autophagy.jpg" alt="Autophagy">
-          <div class="box-content">
-            <h2>18 órán túl <a href="https://regi.tankonyvtar.hu/hu/tartalom/tamop412A/2011_0025_bio_5/ch22s02.html">(Autophagy)</a></h2>
-            <p>Testünk újrahasznosító üzemmódba vált. Felszámolja a sérült és elöregedett sejteket. Sérült <strong>protein</strong> láncokat alakít újra <strong>aminosavakká</strong>.</p>
-          </div>
-        </div>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link" href="#">Sign Up</a>
+        <a class="nav-item nav-link" href="#">About</a>
+        <a class="nav-item nav-link" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
       </div>
     </div>
-    <div class="row">
-      <div class="col-xs-5 col-sm-3 col-sm-offset-1">
-        <div class="box">
-          <img class="img-fluid img-rounded" src="https://gyogyszernelkul.com/wp-content/uploads/2015/03/immunrendszer.jpg" alt="ember">
-          <div class="box-content">
-            <h2>24 órán túl</h2>
-            <p>Elkezdjük keményen kiüríteni a <a href="https://hu.wikipedia.org/wiki/Glikog%C3%A9n"><strong>glikogén</strong></a> raktárakat, főleg a májból, és lassan elkezdünk átállni ketonok égetésére.</p>
+  </nav>
+  <div class="page-wrapper">
+    <header>
+      <h1>Tartós böjt</h1>
+      <h3>Ami testünkben ezalatt történik</h3>
+    </header>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-4 col-sm-offset-2">
+          <div class="box">
+            <img class="img-fluid img-rounded" src="https://cdn.britannica.com/20/198720-050-A89DCD7B/space-filling-structure-ribbon-representation-human-growth-hormone.jpg" alt="GH">
+            <div class="box-content">
+              <h2 class="label-info">12 órán túl</h2>
+              <p>Ha már eltelt 12 óra utolsó étkezésünk óta, a megszokottnál nagyobb mennyiségben kezd növekedési hormon termelődni. A GH <a href="https://hu.wikipedia.org/wiki/N%C3%B6veked%C3%A9si_hormon">(Growth Hormone)</a> egyik fő szerepe a protein szintetizálásban van.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="box">
+            <img class="img-fluid img-rounded" src="http://www.tebu-bio.com/blog/wp-content/uploads/2015/03/the-process-of-autophagy.jpg" alt="Autophagy">
+            <div class="box-content">
+              <h2 class="label-info">18 órán túl <a href="https://regi.tankonyvtar.hu/hu/tartalom/tamop412A/2011_0025_bio_5/ch22s02.html">(Autophagy)</a></h2>
+              <p>Testünk újrahasznosító üzemmódba vált. Felszámolja a sérült és elöregedett sejteket. Sérült <strong>protein</strong> láncokat alakít újra <strong>aminosavakká</strong>.</p>
+            </div>
           </div>
         </div>
       </div>
-      <div class="col-xs-7">
-        <div class="box">
-          <h3> Amint elkezdünk ketonon "működni":</h3>
-          <ul>
-            <li> a májról lebomlik a túlzott szénhidrát és fehérje bevitelből lerakódott zsír.</li>
-            <li>csökken az éhség érzetünk, elmúlik a "sóvárgás"</li>
-            <li>düh és érzelmi fellángolások elmaradnak</li>
-            <li>testünk elkezd antioxidáns tartalékot felhalmozni</li>
-            <li>emiatt több oxigént tudnak a sejtjeink felvenni.</li>
-            <li>általános immunrendszer erősödés:
-              <ul>
-                <li>Beleink gyorsabban gyógyulnak, mert kiürültek és nem kell dolgozniuk.</li>
-              </ul>
-            </li>
-            <li><a href="https://www.allergiakozpont.hu/kontaminalt-vekonybel-szindroma-sibo"><strong>SIBO</strong></a> (Small intestinal bacterial overgrowth) folyamat:
-              <ul>
-                <li>A mikrobák, amiknek alapvetően a vastagbélben a helyük, viszont a folyamatos étkezés miatt már a vékonybélben is szaporodnak, kiürülnek onnan.</li>
-                <li> Őssejtek kezdenek termelődni a belekben.</li>
-              </ul>
-            </li>
-            <li><a href="https://hu.wikipedia.org/wiki/Neuroplaszticit%C3%A1s"> <strong>BDNF</strong></a> (Brain-derived neurotrophic factor):
-              <ul>
-                <li>Ez a faktor segíti az új agysejtek szaporodását. Vagyis agyunk gyorsabban regenerálódik.
-                </li>
-              </ul>
-            </li>
-          </ul>
+      <div class="row">
+        <div class="col-xs-5 col-sm-3 col-sm-offset-1">
+          <div class="box">
+            <img class="img-fluid img-rounded" src="https://gyogyszernelkul.com/wp-content/uploads/2015/03/immunrendszer.jpg" alt="ember">
+            <div class="box-content">
+              <h2>24 órán túl</h2>
+              <p>Elkezdjük keményen kiüríteni a <a href="https://hu.wikipedia.org/wiki/Glikog%C3%A9n"><strong>glikogén</strong></a> raktárakat, főleg a májból, és lassan elkezdünk átállni ketonok égetésére.</p>
+            </div>
+          </div>
         </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col col-sm-4 col-sm-offset-2">
-        <div class="box">
-          <img class="img-fluid img-rounded" src="https://1.bp.blogspot.com/-mEbfRBfIATE/XU1Y7sQJRCI/AAAAAAAAA3A/les5OeMdcxEWw8IGAn2Ecuwl2hMK_yP_ACLcBGAs/s320/What%2BIs%2BAntioxidant%2B-%2BIts%2BSources%2B%2526%2BBenefits%2Bto%2Bour%2BHealth.png" alt="antioxidant">
-          <div class="box-contetn">
-            <h2>24 és 48 óra között</h2>
-            <p>Izmaink lebontása helyett, testünk sérült protein láncokat hasznosít újra, a folyamatos GH termelés miatt.
-              Testünk hidrogén-peroxidot termel, hogy mikrobákat pusztítson. Ezzel párhuzamosan az <a href="https://hu.wikipedia.org/wiki/Antioxid%C3%A1ns"><strong>antioxidáns</strong></a> termelés is fokozódik, hogy saját magát védje.</p>
+        <div class="col-sm-7">
+          <div class="box">
+            <h3> Amint elkezdünk ketonon "működni":</h3>
+            <ul>
+              <li> a májról lebomlik a túlzott szénhidrát és fehérje bevitelből lerakódott zsír.</li>
+              <li>csökken az éhség érzetünk, elmúlik a "sóvárgás"</li>
+              <li>düh és érzelmi fellángolások elmaradnak</li>
+              <li>testünk elkezd antioxidáns tartalékot felhalmozni</li>
+              <li>emiatt több oxigént tudnak a sejtjeink felvenni.</li>
+              <li>általános immunrendszer erősödés:
+                <ul>
+                  <li>Beleink gyorsabban gyógyulnak, mert kiürültek és nem kell dolgozniuk.</li>
+                </ul>
+              </li>
+              <li><a href="https://www.allergiakozpont.hu/kontaminalt-vekonybel-szindroma-sibo"><strong>SIBO</strong></a> (Small intestinal bacterial overgrowth) folyamat:
+                <ul>
+                  <li>A mikrobák, amiknek alapvetően a vastagbélben a helyük, viszont a folyamatos étkezés miatt már a vékonybélben is szaporodnak, kiürülnek onnan.</li>
+                  <li> Őssejtek kezdenek termelődni a belekben.</li>
+                </ul>
+              </li>
+              <li><a href="https://hu.wikipedia.org/wiki/Neuroplaszticit%C3%A1s"> <strong>BDNF</strong></a> (Brain-derived neurotrophic factor):
+                <ul>
+                  <li>Ez a faktor segíti az új agysejtek szaporodását. Vagyis agyunk gyorsabban regenerálódik.
+                  </li>
+                </ul>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
-      <div class="col col-sm-4">
-        <div class="box">
-          <img class="img-fluid img-rounded" src="https://szenolitikum.hu/wp-content/uploads/2019/06/%C5%90ssejt-kutat%C3%A1sok-tart%C3%B3s-fiatal%C3%ADt%C3%A1s-m%C5%B1t%C3%A9t-n%C3%A9lk%C3%BCl.jpg" alt="Cell">
-          <div class="box-content">
-            <h2>48 órán túl</h2>
-            <p>Az <a href="https://hu.wikipedia.org/wiki/%C5%90ssejt"><strong>őssejtek</strong></a> termelése fokozódik, ez hatékonyabb regenerálódást eredményez.
-              Csökken a tumor és rák kialakulásának rizikója. A rákos sejtek csak glükózon képesek szaporodni, viszont ezeket a raktárakat már kiürítettük és testünk <a href="https://hu.wikipedia.org/wiki/Keton"><strong>ketonokat</strong></a> hasznosít.
-              Fokozódik testünk ellenálló képessége vegyszerek és mérgekkel szemben.</p>
+      <div class="row">
+        <div class="col-sm-4 col-sm-offset-2">
+          <div class="box">
+            <img class="img-fluid img-rounded" src="https://1.bp.blogspot.com/-mEbfRBfIATE/XU1Y7sQJRCI/AAAAAAAAA3A/les5OeMdcxEWw8IGAn2Ecuwl2hMK_yP_ACLcBGAs/s320/What%2BIs%2BAntioxidant%2B-%2BIts%2BSources%2B%2526%2BBenefits%2Bto%2Bour%2BHealth.png" alt="antioxidant">
+            <div class="box-contetn">
+              <h2>24 és 48 óra között</h2>
+              <p>Izmaink lebontása helyett, testünk sérült protein láncokat hasznosít újra, a folyamatos GH termelés miatt.
+                Testünk hidrogén-peroxidot termel, hogy mikrobákat pusztítson. Ezzel párhuzamosan az <a href="https://hu.wikipedia.org/wiki/Antioxid%C3%A1ns"><strong>antioxidáns</strong></a> termelés is fokozódik, hogy saját magát védje.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="box">
+            <img class="img-fluid img-rounded" src="https://szenolitikum.hu/wp-content/uploads/2019/06/%C5%90ssejt-kutat%C3%A1sok-tart%C3%B3s-fiatal%C3%ADt%C3%A1s-m%C5%B1t%C3%A9t-n%C3%A9lk%C3%BCl.jpg" alt="Cell">
+            <div class="box-content">
+              <h2>48 órán túl</h2>
+              <p>Az <a href="https://hu.wikipedia.org/wiki/%C5%90ssejt"><strong>őssejtek</strong></a> termelése fokozódik, ez hatékonyabb regenerálódást eredményez.
+                Csökken a tumor és rák kialakulásának rizikója. A rákos sejtek csak glükózon képesek szaporodni, viszont ezeket a raktárakat már kiürítettük és testünk <a href="https://hu.wikipedia.org/wiki/Keton"><strong>ketonokat</strong></a> hasznosít.
+                Fokozódik testünk ellenálló képessége vegyszerek és mérgekkel szemben.</p>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    <div class="row">
-      <div class="col-xs-10 col-xs-offset-1">
-        <h3>Forrás:</h3>
-        <div class="embed-responsive embed-responsive-16by9">
-          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/vhmtoAYVRSo" allowfullscreen></iframe>
+      <div class="row">
+        <div class="col-xs-10 col-xs-offset-1">
+          <h3>Forrás:</h3>
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/vhmtoAYVRSo" allowfullscreen></iframe>
+          </div>
         </div>
       </div>
     </div>

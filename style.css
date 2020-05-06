@@ -1,14 +1,105 @@
-
 body {
   background: url('https://wexnermedical.osu.edu/-/media/images/wexnermedical/blog/2018-stories/04/intermittent-fasting/intermittent-fasting_large.jpg?la=en&hash=7C73BE4147225E68DB1B01F73646ED92E6A4E9F0') no-repeat fixed center/cover;
-  color:azure;
-  font-size: 2rem;
+  color: azure;
+  font-size: 18px;
   letter-spacing: 0.5px;
+  font-family: 'Playfair Display', serif;
 }
 
-h1, h2, h3 { text-align: center; margin: 1rem 0}
-
-.box {margin: 1rem; box-shadow: 0 0 10px 0px; background-color: rgba(0,0,0,.4)}
-
-.box, .box-content { padding: 1rem; line-height:  1.6; margin-bottom: 2rem;
+h1,
+h2,
+h3 {
+  text-align: center;
+  margin: 1rem 0;
+  font-family: 'Comfortaa', cursive;
 }
+
+.box {
+  margin: 1rem;
+  box-shadow: 0 0 10px 0px black;
+  background-color: rgba(0, 0, 0, .8)
+}
+
+.box,
+.box-content {
+  padding: 1rem;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+.navbar {
+  opacity: .9;
+}
+.navbar a {
+  margin: 1rem
+}
+
+navbar a:hover {
+  
+}
+/*
+/*===NAVIGATION STYLE ===*/
+/*
+.page-wrapper {
+  margin-top: 5rem;
+}
+
+nav {
+  background-color: rgba(0,0,0,.8);
+  padding: .5rem;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 1);
+}
+
+@media (min-width: 768px) { /* Táblagép szabványméret*/
+/*
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%
+  }
+
+}
+
+nav a {
+  display: block;
+  font-family: 'Space Mono', monospace;
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  padding: .5rem .5rem;
+}
+
+@media (min-width: 768px) { /* Táblagép szabványméret*/
+/*
+  nav a {
+    width: 8rem;
+    float: right;
+  }
+
+   .home {
+    float: left;
+  }
+
+}
+
+nav a:hover {
+  color: hsl(0, 0%, 77%);
+  transition: color .20s ease-in-out;
+}
+
+/*=== SIGN IN BUTTON STYLE ===*/
+/*
+.sign_up {
+  border: 1px solid hsla(0,0%,100%,.2);
+  border-radius: 9999px;
+}
+
+.sign_up:hover {
+  background-color: #fff;
+  color: #000;
+  transition: background-color .20s ease-in-out;
+  transition: color .10s ease-in-out;
+}
+*/
