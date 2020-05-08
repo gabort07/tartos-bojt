@@ -31,7 +31,6 @@ h2{ font-size: 2rem;}
   padding: 1rem;
 }
 
-
 .box-content p {
   line-height: 1.6;
 }
@@ -41,6 +40,14 @@ h2{ font-size: 2rem;}
 }
 .navbar a {
   margin: 1rem
+}
+
+header, .source {
+  background-color: rgba(0,0,0,.5);
+}
+
+.box ul {
+  text-align: left;
 }
 
 navbar a:hover {
