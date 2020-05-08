@@ -1,7 +1,5 @@
 html {font-size: 18px;}
 
-img {max-width: 100%;}
-
 body {
   background: url('https://wexnermedical.osu.edu/-/media/images/wexnermedical/blog/2018-stories/04/intermittent-fasting/intermittent-fasting_large.jpg?la=en&hash=7C73BE4147225E68DB1B01F73646ED92E6A4E9F0') no-repeat fixed center/cover;
   color: azure;
@@ -18,22 +16,21 @@ h2,
 h3 {
   text-align: center;
   font-family: 'Comfortaa', cursive;
+  margin: 1rem auto;
 }
+
+h1{ font-size: 3rem;}
+
+h2{ font-size: 2rem;}
 
 .box {
   box-shadow: 0 0 10px 0px black;
   background-color: rgba(0, 0, 0, .8);
   margin-bottom: 1.5rem; 
-}
-
-.box img {
-  margin: 0 auto;
-}
-
-.box-content {
   text-align: center;
-  padding: 20px;
+  padding: 1rem;
 }
+
 
 .box-content p {
   line-height: 1.6;
